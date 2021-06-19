@@ -8,6 +8,7 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>configserver</groupId>
 	<artifactId>ConfigServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -15,16 +16,30 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
+=======
+	<groupId>com.serviceregistery</groupId>
+	<artifactId>ServiceRegistery</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ServiceRegistery</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>1.8</java.version>
+		<spring.could.version>2.2.7.RELEASE</spring.could.version>
+>>>>>>> 3f8b452 (first commit)
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
+=======
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+>>>>>>> 3f8b452 (first commit)
 		</dependency>
 
 		<dependency>
